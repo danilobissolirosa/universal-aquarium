@@ -1,0 +1,103 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #00c9d2 , #0f928c);
+    padding: 20px 0;
+    padding-left: 5vh;
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.243);
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    max-width: 125px;
+    max-height: 125px;
+}
+
+#title {
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.menu {
+    width: 50%;
+    text-align: right;
+    padding-top: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+main {
+    background-color: white;
+}
+
+.introduction {
+    text-align: center;
+    padding: 20px;
+}
+
+section p {
+    margin-top: 5px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+section.image {
+    height: 600px;
+    width: 98.8vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+section.text {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#green-chromis {
+    background-image: url("images/green-chromis-fish.jpg");
+}
+
+#blue-devil {
+    background-image: url("images/blue-devil-damselfish.jpg");
+}
+
+#domino-damselfish {
+    background-image: url("images/fish-3.jpg");
+}
+
+#ocellaris-clownfish {
+    background-image: url("images/wallpapers-de-peixes-palhacos.jpg");
+}
+
+#yellowtail-damselfish {
+    background-image: url("images/yellowtail-damselfish.jpeg");
+}
+
+footer {
+    background-image: linear-gradient(to bottom, #00c9d2 , #0f928c);
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.243);
+    text-align: center;
+    font-size: 12px;
+}
